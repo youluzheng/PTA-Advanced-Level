@@ -7,6 +7,7 @@
 #include<iostream> 
 
 // 19:32 - 20:50 
+// https://www.cnblogs.com/d-i-p/p/12728049.html
 using namespace std;
 
 int n;
@@ -17,6 +18,7 @@ void init(){
 	for(int i=1;i<10;i++){
 		mp[i] = 1;
 	}
+	// 这里的10表示0-9，100表示0-99 
 	mp[10] = 1;
 	for(int i=100;i<1000000001;i*=10){
 		int x = i/10;
